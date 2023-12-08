@@ -100,12 +100,12 @@ main section ~ section {
 	margin-top: 1rem;
 	padding: 1.75rem;
 	box-shadow: 0px 4px 50px 0px #0408131a;
-	border-radius: 0.25rem;
+	border-radius: 0.5rem;
 }
 
 main section:first-child {
-	max-width: 460px;
-	max-height: 275px;
+	max-width: 28.75rem;
+	max-height: 17.1875rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
@@ -225,7 +225,7 @@ main section ~ section p {
 
 /* Media queries */
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 	.mobile {
 		display: block;
 	}
